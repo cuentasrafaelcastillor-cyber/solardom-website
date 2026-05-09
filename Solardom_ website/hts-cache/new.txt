@@ -1,0 +1,6 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+12:56:44	1337/1337	---MCZ	404	error ('Not%20Found')	text/html	etag:1778280022-ssl-df	https://solardomrd.netlify.app/robots.txt		(from )
+12:56:44	15174/15174	---MCZ	200	added ('OK')	text/html	etag:%22032791634d6cfee04a072fbe26606539-ssl-df%22	https://solardomrd.netlify.app/	C:/My%20Web%20Sites/Solardom_%20website/solardomrd.netlify.app/index.html	(from )
+12:56:45	25728/25728	---MCZ	200	added ('OK')	text/css	etag:%221985e0139c6ebff1e5b8156cd318d143-ssl-df%22	https://solardomrd.netlify.app/style.css	C:/My%20Web%20Sites/Solardom_%20website/solardomrd.netlify.app/style.css	(from https://solardomrd.netlify.app/)
+12:56:45	85588/85588	---M--	200	added ('OK')	image/jpeg	etag:%2291a9788faf5ad2a4272c41d7a88df8e0-ssl%22	https://solardomrd.netlify.app/images/solardom-logo.jpeg	C:/My%20Web%20Sites/Solardom_%20website/solardomrd.netlify.app/images/solardom-logo.jpg	(from https://solardomrd.netlify.app/)
+12:56:45	3565/3565	---MCZ	200	added ('OK')	application/javascript	etag:%22a4fca29fc5583a61f1006cec80f471c8-ssl-df%22	https://solardomrd.netlify.app/app.js	C:/My%20Web%20Sites/Solardom_%20website/solardomrd.netlify.app/app.js	(from https://solardomrd.netlify.app/)
