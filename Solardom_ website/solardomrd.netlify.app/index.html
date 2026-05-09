@@ -343,22 +343,110 @@
     </div>
   </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="reveal">
-    <div class="container">
+<!-- CONTACT / FORM -->
+<section id="contact" class="reveal">
+  <div class="container">
 
-      <div class="cta-box">
-        <h2>Empieza a ahorrar hoy</h2>
+    <div class="cta-box contact-box">
 
-        <div class="hero-buttons" style="justify-content:center;">
-          <a href="https://wa.me/18097078914" class="btn-primary">Solicitar Evaluación</a>
-          <a href="https://wa.me/18097078914" class="btn-secondary">WhatsApp</a>
-        </div>
-
+      <div class="section-title">
+        <h2>Solicita tu evaluación gratuita</h2>
+        <p>
+          Recibe una estimación personalizada de ahorro solar para tu hogar,
+          villa, negocio o condominio.
+        </p>
       </div>
 
+      <form 
+        name="solardom-leads"
+        method="POST"
+        data-netlify="true"
+        class="quote-form"
+      >
+
+        <input type="hidden" name="form-name" value="solardom-leads">
+
+        <div class="form-grid">
+
+          <div class="form-group">
+            <label>Nombre completo</label>
+            <input 
+              type="text" 
+              name="name" 
+              placeholder="Tu nombre"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label>Teléfono / WhatsApp</label>
+            <input 
+              type="tel" 
+              name="phone" 
+              placeholder="809-000-0000"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label>Correo electrónico</label>
+            <input 
+              type="email" 
+              name="email" 
+              placeholder="correo@email.com"
+            >
+          </div>
+
+          <div class="form-group">
+            <label>Tipo de propiedad</label>
+
+            <select name="property">
+              <option>Residencial</option>
+              <option>Villa</option>
+              <option>Condominio</option>
+              <option>Negocio</option>
+              <option>Comercial</option>
+            </select>
+          </div>
+
+          <div class="form-group full-width">
+            <label>Factura mensual aproximada</label>
+
+            <input 
+              type="text" 
+              name="bill"
+              placeholder="Ej: RD$25,000"
+            >
+          </div>
+
+          <div class="form-group full-width">
+            <label>Mensaje</label>
+
+            <textarea 
+              name="message"
+              rows="5"
+              placeholder="Cuéntanos sobre tu propiedad o necesidades energéticas..."
+            ></textarea>
+          </div>
+
+        </div>
+
+        <div class="form-buttons">
+          <button type="submit" class="btn-primary">
+            Solicitar Evaluación
+          </button>
+
+          <a href="https://wa.me/18097078914" class="btn-secondary">
+            Hablar por WhatsApp
+          </a>
+        </div>
+
+      </form>
+
     </div>
-  </section>
+
+  </div>
+</section>
 
   <!-- FOOTER -->
   <footer>
